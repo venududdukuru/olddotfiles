@@ -1,0 +1,84 @@
+###############
+# ETL SERVERS #
+###############
+
+Host dev
+    HostName lnx0834.infores.com
+    User prokh
+
+Host tst
+    HostName lnx0842.infores.com
+    User prokh
+
+Host prd1
+    HostName lnx0825.infores.com
+    User prokh
+
+Host prd2
+    HostName lnx0826.infores.com
+    User prokh
+
+####################
+# WHITEBOX SERVERS #
+####################
+
+Host wb.dev
+    HostName lnx0830.infores.com
+    User prokh
+
+Host wb.tst
+    HostName lnx0837.infores.com
+    User prokh
+
+Host wb.prd1
+    HostName lnx0813.infores.com
+    User prokh
+
+Host wb.prd2
+    HostName lnx0814.infores.com
+    User prokh
+
+################
+# XCUT SERVERS #
+################
+
+Host xcut.dev
+    HostName lnx1722.infores.com
+    User prokh
+
+Host xcut.tst
+    HostName lnx1722.infores.com
+    User prokh
+
+Host xcut.prd
+    HostName lnx1721.infores.com
+    User prokh
+
+#################
+# MODEL SERVERS #
+#################
+
+Host model.dev
+    HostName lnx0829.infores.com
+    User prokh
+
+Host model.tst
+    HostName lnx0836.infores.com
+    User prokh
+
+Host model.prd1
+    HostName lnx1786.infores.com
+    User prokh
+
+Host model.prd2
+    HostName lnx1787.infores.com
+    User prokh
+
+Host model.prd3
+    HostName lnx0811.infores.com
+    User prokh
+
+Host model.prd4
+    HostName lnx0812.infores.com
+    User prokh
+

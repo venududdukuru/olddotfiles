@@ -1,0 +1,7 @@
+BASEDIR=$(dirname $0)
+cd $BASEDIR
+
+curr_dir=$(pwd)
+
+ln -sf $curr_dir/bashrc ~/.bashrc
+ln -sf $curr_dir/ssh_config ~/.ssh/config
