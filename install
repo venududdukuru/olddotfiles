@@ -5,3 +5,18 @@ curr_dir=$(pwd)
 
 ln -sf $curr_dir/bashrc ~/.bashrc
 ln -sf $curr_dir/ssh_config ~/.ssh/config
+
+ln -sf $curr_dir/vim/autoload ~/.vim/autoload
+ln -sf $curr_dir/vim/colors ~/.vim/colors
+ln -sf $curr_dir/vim/dictionary ~/.vim/dictionary
+ln -sf $curr_dir/vim/localplugins ~/.vim/localplugins
+ln -sf $curr_dir/vim/thesaurus ~/.vim/thesaurus
+ln -sf $curr_dir/vim/ultisnips ~/.vim/ultisnips
+ln -sf $curr_dir/vim/formatters.vim ~/.vim/formatters.vim
+ln -sf $curr_dir/vim/functions.vim ~/.vim/functions.vim
+ln -sf $curr_dir/vim/global.vim ~/.vim/global.vim
+ln -sf $curr_dir/vim/keymaps.vim ~/.vim/keymaps.vim
+ln -sf $curr_dir/vim/languagespecific.vim ~/.vim/languagespecific.vim
+ln -sf $curr_dir/vim/packages.vim ~/.vim/packages.vim
+ln -sf $curr_dir/vim/pythonpaths.vim ~/.vim/pythonpaths.vim
+ln -sf $curr_dir/vim/themesettings.vim ~/.vim/themesettings.vim
