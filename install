@@ -5,14 +5,18 @@
 src_dir=$HOME/dotfiles
 
 ln -sf $src_dir/bashrc $HOME/.bashrc
+ln -sf $src_dir/bash_profile $HOME/.bash_profile
+ln -sf $src_dir/inputrc $HOME/.inputrc
+ln -sf $src_dir/gitconfig $HOME/.gitconfig
+ln -sf $src_dir/tmux.conf $HOME/.tmux.conf
 ln -sf $src_dir/ssh_config $HOME/.ssh/config
 
-ln -sf $src_dir/vim/autoload $HOME/.vim/autoload
-ln -sf $src_dir/vim/colors $HOME/.vim/colors
-ln -sf $src_dir/vim/dictionary $HOME/.vim/dictionary
-ln -sf $src_dir/vim/localplugins $HOME/.vim/localplugins
-ln -sf $src_dir/vim/thesaurus $HOME/.vim/thesaurus
-ln -sf $src_dir/vim/ultisnips $HOME/.vim/ultisnips
+ln -sfT $src_dir/vim/autoload $HOME/.vim/autoload
+ln -sfT $src_dir/vim/colors $HOME/.vim/colors
+ln -sfT $src_dir/vim/dictionary $HOME/.vim/dictionary
+ln -sfT $src_dir/vim/localplugins $HOME/.vim/localplugins
+ln -sfT $src_dir/vim/thesaurus $HOME/.vim/thesaurus
+ln -sfT $src_dir/vim/ultisnips $HOME/.vim/ultisnips
 ln -sf $src_dir/vim/formatters.vim $HOME/.vim/formatters.vim
 ln -sf $src_dir/vim/functions.vim $HOME/.vim/functions.vim
 ln -sf $src_dir/vim/global.vim $HOME/.vim/global.vim
