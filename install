@@ -1,22 +1,24 @@
-BASEDIR=$(dirname $0)
-cd $BASEDIR
+#############################
+# script to create symlinks #
+#############################
 
-curr_dir=$(pwd)
+src_dir=$HOME/dotfiles
 
-ln -sf $curr_dir/bashrc ~/.bashrc
-ln -sf $curr_dir/ssh_config ~/.ssh/config
+ln -sf $src_dir/bashrc $HOME/.bashrc
+ln -sf $src_dir/ssh_config $HOME/.ssh/config
 
-ln -sf $curr_dir/vim/autoload ~/.vim/autoload
-ln -sf $curr_dir/vim/colors ~/.vim/colors
-ln -sf $curr_dir/vim/dictionary ~/.vim/dictionary
-ln -sf $curr_dir/vim/localplugins ~/.vim/localplugins
-ln -sf $curr_dir/vim/thesaurus ~/.vim/thesaurus
-ln -sf $curr_dir/vim/ultisnips ~/.vim/ultisnips
-ln -sf $curr_dir/vim/formatters.vim ~/.vim/formatters.vim
-ln -sf $curr_dir/vim/functions.vim ~/.vim/functions.vim
-ln -sf $curr_dir/vim/global.vim ~/.vim/global.vim
-ln -sf $curr_dir/vim/keymaps.vim ~/.vim/keymaps.vim
-ln -sf $curr_dir/vim/languagespecific.vim ~/.vim/languagespecific.vim
-ln -sf $curr_dir/vim/packages.vim ~/.vim/packages.vim
-ln -sf $curr_dir/vim/pythonpaths.vim ~/.vim/pythonpaths.vim
-ln -sf $curr_dir/vim/themesettings.vim ~/.vim/themesettings.vim
+ln -sf $src_dir/vim/autoload $HOME/.vim/autoload
+ln -sf $src_dir/vim/colors $HOME/.vim/colors
+ln -sf $src_dir/vim/dictionary $HOME/.vim/dictionary
+ln -sf $src_dir/vim/localplugins $HOME/.vim/localplugins
+ln -sf $src_dir/vim/thesaurus $HOME/.vim/thesaurus
+ln -sf $src_dir/vim/ultisnips $HOME/.vim/ultisnips
+ln -sf $src_dir/vim/formatters.vim $HOME/.vim/formatters.vim
+ln -sf $src_dir/vim/functions.vim $HOME/.vim/functions.vim
+ln -sf $src_dir/vim/global.vim $HOME/.vim/global.vim
+ln -sf $src_dir/vim/keymaps.vim $HOME/.vim/keymaps.vim
+ln -sf $src_dir/vim/languagespecific.vim $HOME/.vim/languagespecific.vim
+ln -sf $src_dir/vim/packages.vim $HOME/.vim/packages.vim
+ln -sf $src_dir/vim/pythonpaths.vim $HOME/.vim/pythonpaths.vim
+ln -sf $src_dir/vim/themesettings.vim $HOME/.vim/themesettings.vim
+ln -sf $src_dir/vimrc $HOME/.vimrc

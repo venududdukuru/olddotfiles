@@ -1,0 +1,7 @@
+[user]
+	name = venu
+	email = venu.duddukuru@gmail.com
+[color]
+	ui = true
+[credential]
+	helper = store
