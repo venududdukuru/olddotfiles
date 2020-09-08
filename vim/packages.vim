@@ -10,6 +10,8 @@ call plug#begin('~/.vim/plugged')
     Plug 'honza/vim-snippets'
     Plug 'godlygeek/tabular'
     Plug 'morhetz/gruvbox'
+    Plug 'junegunn/fzf', { 'dir': '~/.fzf' }
+    Plug 'junegunn/fzf.vim'
     Plug 'jremmen/vim-ripgrep'
     Plug '~/.vim/localplugins/myformatter'
     "Plug 'kiteco/vim-plugin'
