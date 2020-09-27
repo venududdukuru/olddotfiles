@@ -18,3 +18,8 @@ nnoremap <leader>a zM
 " Unfold all
 nnoremap <leader>m zR
 
+setlocal wildignore=*/__pycache__/*,*.pyc
+
+" :setlocal makeprg=python3\ %
+" :setlocal errorformat=
+compiler python
