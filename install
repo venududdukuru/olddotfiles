@@ -17,11 +17,11 @@ ln -sfT $src_dir/vim/dictionary $HOME/.vim/dictionary
 ln -sfT $src_dir/vim/localplugins $HOME/.vim/localplugins
 ln -sfT $src_dir/vim/thesaurus $HOME/.vim/thesaurus
 ln -sfT $src_dir/vim/ultisnips $HOME/.vim/ultisnips
+ln -sfT $src_dir/vim/after $HOME/.vim/after
 ln -sf $src_dir/vim/formatters.vim $HOME/.vim/formatters.vim
 ln -sf $src_dir/vim/functions.vim $HOME/.vim/functions.vim
 ln -sf $src_dir/vim/global.vim $HOME/.vim/global.vim
 ln -sf $src_dir/vim/keymaps.vim $HOME/.vim/keymaps.vim
-ln -sf $src_dir/vim/languagespecific.vim $HOME/.vim/languagespecific.vim
 ln -sf $src_dir/vim/packages.vim $HOME/.vim/packages.vim
 ln -sf $src_dir/vim/pythonpaths.vim $HOME/.vim/pythonpaths.vim
 ln -sf $src_dir/vim/themesettings.vim $HOME/.vim/themesettings.vim
