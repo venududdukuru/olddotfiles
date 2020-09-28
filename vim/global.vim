@@ -54,18 +54,28 @@ set nowritebackup
 set noswapfile
 
 " Set wordlist for dictionary and thesaurus
-set dictionary=~\vimfiles\dictionary\english-words.txt
-set thesaurus+=~\vimfiles\thesaurus\roget13a.txt
+if has('win32') || has('win64')
+    set dictionary+=~\vimfiles\dictionary\english-words.txt
+    set thesaurus+=~\vimfiles\thesaurus\roget13a.txt
+else
+    set dictionary+=~/.vim/dictionary/english-words.txt
+    set thesaurus+=~/.vim/thesaurus/roget13a.txt
+endif
 " Enable completion with dictionary words
 set complete+=k
 " Search for files using find command
 set path+=**
+" Set diff options
+" refx https://vimways.org/2018/the-power-of-diff/
+set diffopt=internal,filler,closeoff,vertical,context:3,indent-heuristic,algorithm:patience
 
 " Change to home directory
 cd ~
 
 " Disable gui components for more screen realestate only for gvim
-set guioptions-=m  "menu bar
-set guioptions-=T  "toolbar
-set guioptions-=r  "scrollbar
+if has('win32') || has('win64')
+    set guioptions-=m  "menu bar
+    set guioptions-=T  "toolbar
+    set guioptions-=r  "scrollbar
+endif
 

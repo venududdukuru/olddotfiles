@@ -4,9 +4,6 @@
 :nnoremap <silent> <leader>sv :source $MYVIMRC<CR>
 :inoremap <silent> jk <esc>
 :nnoremap <silent> <leader>c :noh<CR><CR>
-"create empty lines
-nnoremap <silent> <Enter> o<ESC>
-nnoremap <silent> <S-Enter> O<ESC>
 "cycling across buffers
 :nnoremap <silent> <Space>n :bnext<CR>
 :nnoremap <silent> <Space>p :bprevious<CR>
@@ -37,10 +34,6 @@ vnoremap <silent> <S-Tab> <gv
 "Visual yank to/from system register
 vmap <silent> <C-Y> "+y
 nmap <silent> <C-P> "+p
-"Swap arguments
-:nnoremap <silent> gw "_yiw:s/\(\%#\w\+\)\(\_W\+\)\(\w\+\)/\3\2\1/<CR><c-o><c-l>:nohlsearch<CR>
-:nnoremap <silent> gl "_yiw?\w\+\_W\+\%#<CR>:s/\(\%#\w\+\)\(\_W\+\)\(\w\+\)/\3\2\1/<CR><c-o><c-l>:nohlsearch<CR>
-:nnoremap <silent> gr "_yiw:s/\(\%#\w\+\)\(\_W\+\)\(\w\+\)/\3\2\1/<CR><c-o>/\w\+\_W\+<CR><c-l>:nohlsearch<CR>
 "fzf
 :nnoremap <silent> <leader>f :FZF<cr>
 
