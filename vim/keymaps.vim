@@ -1,4 +1,5 @@
 :let mapleader = ','
+
 "Mapping Keys
 :nnoremap <silent> <leader>ev :vsplit $MYVIMRC<CR>
 :nnoremap <silent> <leader>sv :source $MYVIMRC<CR>
