@@ -2,7 +2,11 @@ snippet reg "sign"
 kindest
 endsnippet
 
-snippet '^rep (\W+) (\d+)' "repeat" r
+snippet '(\S+) (\d+)' "repeat" r
 `!p snip.rv=match.group(1) * int(match.group(2))`
 endsnippet
+	
+# snippet '^rep (\W+) (\d+)' "repeat" r
+# `!p snip.rv=match.group(1) * int(match.group(2))`
+# endsnippet
 	

@@ -68,10 +68,18 @@ set path+=**
 " Set diff options
 " refx https://vimways.org/2018/the-power-of-diff/
 set diffopt=internal,filler,closeoff,vertical,context:3,indent-heuristic,algorithm:patience
-
 " Change to home directory
 cd ~
-
+" theme
+set guifont=Ubuntu\ Mono:h12
+set t_Co=256
+colorscheme gruvbox
+set background=dark
+" Set python path
+if has('win32') || has('win64')
+    set pythonthreehome=C:\Python382
+    set pythonthreedll=C:\Python382\python38.dll
+endif
 " Disable gui components for more screen realestate only for gvim
 if has('win32') || has('win64')
     set guioptions-=m  "menu bar
