@@ -37,4 +37,6 @@ vmap <silent> <C-Y> "+y
 nmap <silent> <C-P> "+p
 "fzf
 :nnoremap <silent> <leader>f :FZF<cr>
+"Rupee Symbol
+:inoremap <silent> <c-v>rs ₹
 
