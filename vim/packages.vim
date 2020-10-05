@@ -13,6 +13,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'junegunn/fzf', { 'dir': '~/.fzf' }
     Plug 'junegunn/fzf.vim'
     Plug 'jremmen/vim-ripgrep'
+    Plug 'vimwiki/vimwiki'
     Plug '~/.vim/localplugins/myformatter'
     "Plug 'kiteco/vim-plugin'
 call plug#end()
@@ -27,4 +28,7 @@ let g:snips_email="venu.duddukuru@gmail.com"
 let g:snips_github="https://github.com/venududdukuru"
 let g:UltiSnipsSnippetDirectories = ['~/vimfiles/UltiSnips', 'ultiSnips']
 let g:UltiSnipsListSnippets="<c-tab>"
+"Vimwiki
+let g:vimwiki_global_ext = 0
+let g:vimwiki_list = [{'path': '~/wiki/', 'syntax': 'markdown', 'ext': '.md'}]
 
