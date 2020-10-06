@@ -19,6 +19,7 @@ ln -sfT $src_dir/vim/thesaurus $HOME/.vim/thesaurus
 ln -sfT $src_dir/vim/ultisnips $HOME/.vim/ultisnips
 ln -sfT $src_dir/vim/after $HOME/.vim/after
 ln -sfT $src_dir/vim/compiler $HOME/.vim/compiler
+ln -sfT $src_dir/vim/bin $HOME/.vim/bin
 ln -sf $src_dir/vim/formatters.vim $HOME/.vim/formatters.vim
 ln -sf $src_dir/vim/functions.vim $HOME/.vim/functions.vim
 ln -sf $src_dir/vim/global.vim $HOME/.vim/global.vim
