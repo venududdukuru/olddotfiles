@@ -30,5 +30,6 @@ let g:UltiSnipsSnippetDirectories = ['~/vimfiles/UltiSnips', 'ultiSnips']
 let g:UltiSnipsListSnippets="<c-tab>"
 "Vimwiki
 let g:vimwiki_global_ext = 0
-let g:vimwiki_list = [{'path': '~/wiki/', 'syntax': 'markdown', 'ext': '.md'}]
+let g:vimwiki_list = [{'path': '~/wiki/', 'syntax': 'markdown', 'ext': '.md'}, 
+                    \ {'path': '~/wiki/tech', 'syntax': 'markdown', 'ext': '.md'}]
 
