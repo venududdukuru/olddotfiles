@@ -34,6 +34,10 @@ vmap <silent> <C-Y> "+y
 nmap <silent> <C-P> "+p
 "fzf
 :nnoremap <silent> <leader>f :FZF<cr>
+"ripgrep
+:nnoremap <leader>r :Rg 
+"tag search using rigrep for vimwiki
+:nnoremap <leader>rt :Rg :
 "Rupee Symbol
 :inoremap <silent> <c-v>rs ₹
 
