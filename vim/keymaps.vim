@@ -11,9 +11,6 @@
 "cycling through tabs
 :nnoremap <silent> <C-Left> :tabprevious<CR>
 :nnoremap <silent> <C-Right> :tabnext<CR>
-"creating split windows
-:nnoremap <silent> \| :vsp<CR>
-:nnoremap <silent> _ :sp<CR>
 "Moving around windows
 nnoremap <silent> <c-j> <c-w>j
 nnoremap <silent> <c-k> <c-w>k
