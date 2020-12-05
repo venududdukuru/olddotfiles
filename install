@@ -25,6 +25,4 @@ ln -sf $src_dir/vim/functions.vim $HOME/.vim/functions.vim
 ln -sf $src_dir/vim/global.vim $HOME/.vim/global.vim
 ln -sf $src_dir/vim/keymaps.vim $HOME/.vim/keymaps.vim
 ln -sf $src_dir/vim/packages.vim $HOME/.vim/packages.vim
-ln -sf $src_dir/vim/pythonpaths.vim $HOME/.vim/pythonpaths.vim
-ln -sf $src_dir/vim/themesettings.vim $HOME/.vim/themesettings.vim
 ln -sf $src_dir/vimrc $HOME/.vimrc
