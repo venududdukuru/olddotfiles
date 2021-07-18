@@ -40,4 +40,5 @@ nmap <silent> <C-P> "+p
 :nnoremap <leader>rt :Rg :
 "Rupee Symbol
 :inoremap <silent> <c-v>rs ₹
-
+"Diff current changes with file on disk
+nnoremap <silent> <leader>d :w !diff % -<cr>
