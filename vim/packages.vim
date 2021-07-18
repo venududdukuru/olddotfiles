@@ -16,6 +16,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'vimwiki/vimwiki'
     Plug '~/.vim/localplugins/myformatter'
     "Plug 'kiteco/vim-plugin'
+    Plug 'dhruvasagar/vim-table-mode'
 call plug#end()
 
 "Commentary plugin for python
@@ -34,4 +35,6 @@ let g:vimwiki_list = [{'path': '~/wiki/', 'syntax': 'markdown', 'ext': '.md'},
                     \ {'path': '~/wiki/tech', 'syntax': 'markdown', 'ext': '.md'},
                     \ {'path': '~/wiki/iri', 'syntax': 'markdown', 'ext': '.md'},
                     \ {'path': '~/wiki/harman', 'syntax': 'markdown', 'ext': '.md'}]
+" markdown compatible tables
+let g:table_mode_corner='|'
 
