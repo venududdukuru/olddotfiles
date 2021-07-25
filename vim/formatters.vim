@@ -1,3 +1,5 @@
+"Set format program as par
+set formatprg=par\ -w80j
 "Make Ctags
 com! MakeTags :!ctags.exe -R .<CR>
 com! MakeTagsPython :!ctags.exe -R --fields=+l --languages=python . <CR>
