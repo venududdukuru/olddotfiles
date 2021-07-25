@@ -7,6 +7,9 @@ set autoindent
 set smartindent
 set fileformat=unix
 
+"set format program
+let &formatprg="black -q -"
+
 " Enable folding
 set foldmethod=indent
 set foldlevel=99
